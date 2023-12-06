@@ -1,0 +1,130 @@
+
+@media screen and (max-width: 1000px) {
+.header {
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 1rem 0.5rem;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 1rem;
+    padding: 8px 2px;
+}
+
+
+
+#logo {
+    position: absolute;
+    left: 1rem;
+    margin: 0.35rem 0.5rem;
+    /* border: 2px solid red; */
+    font-family: 'Smooch', cursive;
+}
+
+#logo img{
+    height:2.7rem;
+}
+
+.home h2{
+    text-align: center;
+    font-family: 'Smooch', cursive;
+    font-size: 3rem;
+}
+.home p {
+    margin: 2rem auto;
+    width: 90%;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.orderbtn{
+    background: white;
+    color:black;
+    margin-top: 1rem;
+    border: 1px solid rgb(0, 0, 0);
+    height: 2.2rem;
+    padding: 8px 35px;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#orderbtn {
+    display: block;
+    margin: 10px auto;
+    width: 10rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    backdrop-filter: blur(2px);
+}
+
+.welcome {
+    padding: 50px 15px;
+    margin-top: 3rem;
+    color: black;
+    /* border: 0.5px solid white; */
+    border-radius: 10px;
+    width: 50%;
+    background: rgba(0, 0, 0, 0);
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 2 rgba(0, 0, 0, 0.2), 0 6px 20px 2 rgba(0, 0, 0, 0.19);
+}
+
+
+.itemsec {
+    margin: 0px;
+    /* height: 500px; */
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 45px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 2 rgba(0, 0, 0, 0.2), 0 6px 20px 2 rgba(0, 0, 0, 0.19);
+}
+
+.itemsec h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 40px;
+}
+
+.items {
+
+    /* position: absolute; */
+    border: 2px solid black;
+    height: 13rem;
+    width: 11rem;
+    margin: 3rem 0.3rem;
+    border-radius: 0px;
+    box-shadow: 9px 9px rgb(108, 108, 108);
+    /* transition: transform 0.2s ease; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items h5{
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.items img{
+    margin-top: 1rem;
+    width: 4rem;
+}
+
+}
